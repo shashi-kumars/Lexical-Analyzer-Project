@@ -77,5 +77,3 @@ Tools that automatically format or beautify source code can use lexical analysis
 
 10. Conclusion
 The lexical analyzer is an essential part of the compilation process, responsible for the first level of source code analysis. It efficiently breaks down source code into tokens, simplifying the parsing and interpretation phases of a compiler. The project demonstrates how finite state machines, pattern matching, and string processing can be combined to process and categorize code. The tool's success depends on its ability to correctly tokenize input, handle errors, and efficiently manage large inputs.
-
-Although lexical analysis is conceptually simpler than parsing or code generation, it forms the foundation upon which the later stages of a compiler or interpreter are built. Proper handling of errors, edge cases, and performance considerations are key to creating a robust and efficient lexical analyzer. Future improvements may include optimizations for large code bases, better error reporting, and support for more complex language features.
